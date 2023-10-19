@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .debugger {
+  outline-color: red;
+  border: 2px solid red;
+  outline-style: solid;
+} */
+
+.App {
+  margin: auto;
+  margin-top: 100px;
+}
+
+
+body {
+  background: #d6dfda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+}
+
+.TodoWrapper {
+  background: 	#5d806b;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.TodoForm {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid 	#85a090;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: #85a090;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: 	#346046;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.incompleted {
+  color: #fff;
+  cursor: pointer;
+}
+
+.completed {
+  color: #aebfb5;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.edit-icon,
+.delete-icon {
+  cursor: pointer;
+}
+
+.container {
+  /*background-color: red;*/
+  width: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer-container {
+  /*background-color: blue;*/
+  flex: 1;
+  margin-top: -50px;
+  margin-left: 100px;
+}
+
+.todo-container {
+  flex: 1;
+  justify-content: space-between;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.display-time {
+  border-radius: 50%;
+  width: 225px;
+  height: 225px;
+  margin: auto;
+  border: 10px solid #5d806b;
+}
+
+.p-time {
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+}
+
+.input {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: #d6dfda;
+  font-size: 20px;
+  color: #5d806b;
+  border: 3px solid #5d806b
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
