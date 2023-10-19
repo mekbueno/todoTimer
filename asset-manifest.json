@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todoTimer/static/css/main.482e5c2c.css",
+    "main.js": "/todoTimer/static/js/main.4ae1b843.js",
+    "static/js/787.ed6d61f2.chunk.js": "/todoTimer/static/js/787.ed6d61f2.chunk.js",
+    "index.html": "/todoTimer/index.html",
+    "main.482e5c2c.css.map": "/todoTimer/static/css/main.482e5c2c.css.map",
+    "main.4ae1b843.js.map": "/todoTimer/static/js/main.4ae1b843.js.map",
+    "787.ed6d61f2.chunk.js.map": "/todoTimer/static/js/787.ed6d61f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.482e5c2c.css",
+    "static/js/main.4ae1b843.js"
+  ]
+}
